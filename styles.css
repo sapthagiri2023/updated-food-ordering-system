@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Header Section Styles with Background Image */
+.header-bg {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Menu Section Styles */
+#menu {
+    padding: 50px;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Video Section Styles */
+#video {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Add this to your styles.css file */
+h1 {
+    color: #ffffff; /* White text color */
+    background-color: #333333; /* Dark background color */
+    padding: 20px; /* Add padding for better readability */
+}
